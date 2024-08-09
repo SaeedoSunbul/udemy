@@ -1,0 +1,71 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 5px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+.player1 , .player2 {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+img {
+  width: 50%;
+}
+
+footer {
+  margin-top: 100px;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  clear: both;
+
+}
+#player11{
+  display: none;
+
+}
+#player22{
+  display: none;
+
+}
+#Draw{
+  display: none;
+
+
+}
+
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50px, 2fr));
+  grid-template-rows: repeat(2, minmax(150px, 2fr));
+  
+}
+
+.player1 , .player2 , .img1 .img2 {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
